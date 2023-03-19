@@ -1,0 +1,63 @@
+.main-blogs {
+  display: block;
+  margin-top: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 100%;
+}
+.posts {
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  margin-bottom: 3rem;
+}
+.img-post {
+  width: 100%;
+  max-height: 20rem;
+  margin: 1rem auto;
+}
+.post-info {
+  display: flex;
+  justify-content: space-evenly;
+  color: #0f5132;
+  font-size: 1rem;
+  flex-wrap: wrap;
+}
+.title {
+  text-align: center;
+  font-weight: bold;
+  color: #842029;
+  margin-bottom: 1rem;
+}
+.description {
+  text-align: center;
+  width: 100%;
+}
+.post-controllers {
+  position: absolute;
+  top: 0;
+  right: 0.5rem;
+}
+.read-more {
+  margin-left: 0.3rem;
+  font-size: 1rem;
+  color: #1f8199;
+  border: none;
+}
+.btn-comment {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #842029;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .posts {
+    width: 85%;
+  }
+}
