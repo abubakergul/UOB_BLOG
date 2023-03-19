@@ -22,7 +22,6 @@ nav {
 .main-img {
   width: 85%;
   object-fit: cover;
-  display: none;
 }
 .btn-explore {
   margin-top: 1rem;
@@ -41,5 +40,8 @@ nav {
     justify-content: center;
     align-items: center;
     height: 100vh;
+  }
+  .main-img {
+    display: none;
   }
 }
